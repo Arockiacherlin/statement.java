@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner data=new Scanner (System.in);
+        System.out.println("Enter num:");
+        int number1=data.nextInt();
+     if(number1%2==0)
+     {
+        System.out.println("Number is even");
+     }
+     else
+     {
+        System.out.println("Number is odd");
+     }
+    
+        
+    }
+}
