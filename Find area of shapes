@@ -21,8 +21,8 @@ class ShapeCalculator {
                          System.out.print("Length: ");
                          double l = sc.nextDouble();
                         System.out.print("Width: "); 
-                         double w = sc.nextDouble();
-                        System.out.println("Area: " + (l * w));
+                         double b = sc.nextDouble();
+                        System.out.println("Area: " + (l * b));
                       }
             case 4 : { 
                         System.out.print("Base: "); 
