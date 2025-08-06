@@ -14,8 +14,8 @@ class ShapeCalculator {
                        }
             case 2 : { 
                         System.out.print("Side: ");
-                        double s = sc.nextDouble();
-                        System.out.println("Area: " + (s * s));
+                        double a = sc.nextDouble();
+                        System.out.println("Area: " + (a * a));
                       }
             case 3 : { 
                          System.out.print("Length: ");
