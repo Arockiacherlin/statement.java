@@ -54,3 +54,24 @@ class Main {
         System.out.println("Mobile Number: " + mobilenumber);
     }
 }
+
+OUTPUT:
+Enter firstname: Arockia
+Enter surname: cherlin 
+Enter age: 21
+Enter sprno: 9355
+Enter gender (true for female, false for male): true
+Gender: Female
+Enter height: 165.5
+Enter salary: 50000
+Enter mobileno: 0123456789
+
+Personal Details:
+First Name: Arockia
+Lastname: cherlin 
+Age: 21
+SPR Number: 9355
+Gender: Female
+Height: 165.5 cm
+Salary: $50000.0
+Mobile Number: 123456789
