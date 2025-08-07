@@ -59,3 +59,36 @@ Enter number:
 8
 8 is an ugly number
 Enter number:
+
+// sum of numbers
+
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);
+
+System.out.println("enter number:");
+int n=data.nextInt();
+
+int sum=0;
+for (int i = 0; i < n; i++) {
+    sum = i + (i + 1);
+    System.out.println(sum);
+}
+        
+}
+}
+
+OUTPUT:
+
+enter number:
+6
+1
+3
+5
+7
+9
+11
+
+//
