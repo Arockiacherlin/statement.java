@@ -1,0 +1,40 @@
+import java.util.*;
+ 
+class instagram {
+    
+    
+    public static void login(String x,String y)
+    {
+        if(x.equals("cherlin")&& y.equals("1234"))
+         {
+            System.out.println("Welcome..!!"+x);
+         }
+        else
+         {
+            System.out.println("Inavlid username or password!!");
+         }
+        
+    }
+    
+    public static void main(String[] args)
+     {
+        Scanner n=new Scanner(System.in);
+        System.out.println("Enter Username: ");
+        String x=n.nextLine();
+        System.out.println("Enter password :");
+        String y=n.nextLine();
+        login(x,y);
+        
+     }
+        
+  OUTPUT:
+
+Enter Username: 
+cherlin
+Enter password :
+1234
+Welcome..!!cherlin
+
+        
+    
+}
