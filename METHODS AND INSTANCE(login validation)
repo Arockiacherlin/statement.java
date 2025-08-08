@@ -99,3 +99,26 @@ Enter password :
 1234
 Welcome..!!cherlin
 
+ -------- INSTANCE ---------
+
+// SYNTAX
+// modifier returntype name()
+//{
+    
+//}
+
+
+
+import java.util.*;
+class main {
+    public static void main(String[] args) {
+       main obj=new main();
+       obj.sample();
+        
+      }
+    public  void sample()
+    {
+        int a=10;
+        System.out.println(a);
+    }
+}
