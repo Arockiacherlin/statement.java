@@ -67,3 +67,47 @@ Enter a string:
 hel
 true
 false
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter length:");
+        int n = sc.nextInt();
+        
+     
+        sc.nextLine(); 
+
+        char[] charArray = new char[n]; 
+        System.out.println("Enter " + n + " characters:");
+        for (int i = 0; i < n; i++) {
+            String input = sc.nextLine(); 
+            
+                charArray[i] = input.charAt(0); 
+            
+                
+               
+           
+        }
+
+       
+        String str = String.copyValueOf(charArray); 
+        System.out.println("Resulting String: " + str);
+
+       
+    }
+}
+
+output:
+
+Enter length:
+5
+Enter 5 characters:
+h
+e
+l
+l
+o
+Resulting String: hello
+
