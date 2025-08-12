@@ -149,3 +149,20 @@ otuput:
 
 0123456789
 0123world9
+
+//
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        char[] data={'9','3','5','5','4','8','7','9','6','4','3'};
+        System.out.println(data);
+        
+        String mystring="cherlin";
+        mystring.getChars(0,7,data,4);
+       System.out.println(data);
+    }
+}
+
+output:
+93554879643
+9355cherlin
