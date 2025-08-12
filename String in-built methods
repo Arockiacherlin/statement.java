@@ -18,3 +18,32 @@ java
 a
 106
 106
+
+//
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter string:");
+        String name=sc.nextLine();
+        System.out.println("enter string:");
+        String name1=sc.nextLine();
+        
+        int y=name.codePointCount(0,3);
+        int y1=name.compareTo(name1);
+        int y2=name.compareToIgnoreCase(name1);
+        System.out.println(y);
+        System.out.println(y1);
+        System.out.println(y2);
+    }
+
+}
+OUTPUT:
+Enter a string:
+java
+Enter a string:
+java
+3
+0
+0
