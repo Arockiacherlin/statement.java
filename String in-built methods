@@ -130,3 +130,22 @@ output:
 
 false
 Hi Jinny my age 20
+
+//
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        char[] data={'0','1','2','3','4','5','6','7','8','9'};
+        System.out.println(data);
+        
+        String mystring="Helloworld";
+        mystring.getChars(5,10,data,4);
+       System.out.println(data);
+    }
+}
+
+otuput:
+
+0123456789
+0123world9
