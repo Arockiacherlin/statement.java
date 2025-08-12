@@ -110,4 +110,23 @@ l
 l
 o
 Resulting String: hello
+//
 
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String data="Hello";
+        String hi="Hi %s my age %d";
+        System.out.println(data.equalsIgnoreCase(hi));
+        System.out.printf(hi,"Jinny",20);
+
+       
+    }
+}
+
+output:
+
+false
+Hi Jinny my age 20
