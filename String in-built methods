@@ -47,3 +47,23 @@ java
 3
 0
 0
+//
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter string:");
+        String name=sc.nextLine();
+        
+        
+        System.out.println(name.contains("hel"));
+        System.out.println(name.contentEquals("hel"));
+    }
+
+}
+
+output:
+Enter a string:
+hel
+true
+false
