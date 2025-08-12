@@ -1,0 +1,20 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a string:");
+        String y=sc.nextLine();
+        char y3=y.charAt(1);
+        int y1=y.codePointAt(0);
+        int y2=y.codePointBefore(1);
+        System.out.println(y3);
+        System.out.println(y1);
+        System.out.println(y2);
+    }
+}
+
+OUTPUT:
+java
+a
+106
+106
