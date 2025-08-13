@@ -166,3 +166,21 @@ class Main {
 output:
 93554879643
 9355cherlin
+
+//
+
+class Main {
+    public static void main(String[] args) {
+      String a="New york";
+      String b=" Hello world";
+      String x="java script";
+      System.out.println("java script".matches(x));
+      System.out.println(" Hello world".matches(b));
+      System.out.println(b.regionMatches(7,a,4,5));
+    }
+}
+
+output:
+true
+true
+false
