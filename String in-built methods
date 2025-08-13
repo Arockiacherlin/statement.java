@@ -260,3 +260,107 @@ Harry
 potter
 Concatenated: Harry potter
 
+//
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        
+        String x ="Harrypotter";
+
+        
+        String sub=x.substring(0,5);
+        String sub1=x.substring(5);
+        System.out.println(sub+" "+sub1);
+    }
+}
+
+output:
+Harry potter
+
+//
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        
+        String x ="Harry potter";
+
+        
+        String sub=x.substring(0,5);
+        String sub1=x.substring(6);
+        System.out.println(sub+""+sub1);
+    }
+}
+
+output:
+Harrypotter
+
+//
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+         
+        String x = "cedricdigorry";
+        char[] y = x.toCharArray();
+        
+       
+        for (char ch : y) {
+            System.out.println(ch);
+        }
+
+     
+        String sub = x.substring(0, 6);
+        String sub1 = x.substring(6);
+        System.out.println(sub + " " + sub1);
+    }
+}
+
+output:
+c
+e
+d
+r
+i
+c
+d
+i
+g
+o
+r
+r
+y
+cedric digorry
+
+//
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+         
+        String x = " cedric digorry  ";
+        System.out.println(x);
+        System.out.println(x.trim());
+        System.out.println(String.valueOf(x));
+        System.out.println(String.valueOf(true));
+    }
+}
+
+output:
+cedric digorry  
+cedric digorry
+ cedric digorry  
+true 
+
+
+
