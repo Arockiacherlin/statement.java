@@ -226,3 +226,37 @@ output:
 i
 am
 luna
+
+//
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter string:");
+        String x = sc.nextLine();
+
+        String regex = "[,\\.\\s]"; 
+        String[] z = x.split(regex);
+
+       
+        for (String s : z) {
+            System.out.println(s);
+        }
+
+       
+        String concatenated = String.join(" ", z);
+        System.out.println("Concatenated: " + concatenated);
+    }
+}
+
+output:
+
+enter string:
+Harry potter
+Harry
+potter
+Concatenated: Harry potter
+
