@@ -205,3 +205,24 @@ output:
 naw world
  kavi world
  hi world
+
+//
+
+class Main {
+    public static void main(String[] args) {
+        String x="i am luna";
+        String y="[,\\.\\s]";
+     
+        
+        
+        String[] z=x.split(y);
+       for(String s:z){
+         System.out.println(s);
+    }
+}
+}
+
+output:
+i
+am
+luna
