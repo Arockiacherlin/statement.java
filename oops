@@ -1,0 +1,20 @@
+import java.util.*;
+class person {
+    String n;
+    int age;
+    public person(String n,int age){
+        this.n=n;
+        this.age=age;
+    }
+    @Override
+     public String toString(){
+         return "Person{name:'"+n+" Age:'"+age+"'}";
+     }
+     public static void main(String[] args){
+         person p=new person("Cherlin",20);
+         System.out.println(p.toString());
+     }
+}
+
+output:
+Person{name:'Cherlin Age:'20'}
