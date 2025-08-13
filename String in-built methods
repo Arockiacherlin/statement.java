@@ -184,3 +184,24 @@ output:
 true
 true
 false
+
+//
+
+class Main {
+    public static void main(String[] args) {
+        String x="new world";
+        String y=" Hello world";
+     
+        
+        System.out.println(x.replace('e','a'));
+        String  a="(?i)Hello";
+        System.out.println(y.replaceAll(a,"kavi"));
+        String b="Hello";
+         System.out.println(y.replaceFirst(b,"hi"));
+    }
+}
+
+output:
+naw world
+ kavi world
+ hi world
