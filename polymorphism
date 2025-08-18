@@ -41,3 +41,39 @@ Driving a car
 Driving a generic vehicle
 
 === Code Execution Successful ===
+
+//
+class Payment {
+    void drive() {  
+        System.out.println("payment method");
+    }
+}
+class Gpay extends Payment {
+    @Override
+    void drive() {
+        System.out.println("Google pay");
+    }
+}
+class Banktransfer extends Payment {
+    @Override
+    void drive() {
+        System.out.println("Bank transaction");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Payment v = new Gpay();   
+        v.drive();               
+        Payment a = new Banktransfer();    
+        a.drive();                
+        Payment b = new Payment();
+        b.drive();               
+    }
+}
+output:
+Google pay
+Bank transaction
+payment method
+
+=== Code Execution Successful ===
+
