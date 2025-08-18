@@ -1,0 +1,43 @@
+import java.util.*; 
+
+class Vehicle { 
+    public void drive() { 
+        System.out.println("Driving a generic vehicle"); 
+    }
+}
+
+class Bike extends Vehicle { 
+    @Override 
+    public void drive() { 
+        System.out.println("Driving a bike");        
+    }
+}
+
+class Car extends Vehicle { 
+    @Override 
+    public void drive() { 
+        System.out.println("Driving a car");
+    }
+}
+
+public class Main { 
+    public static void main(String[] args) {
+        Vehicle v; 
+        v = new Bike(); 
+        v.drive(); 
+
+        Vehicle a; 
+        a = new Car(); 
+        a.drive(); 
+
+        Vehicle b = new Vehicle(); 
+        b.drive(); 
+    }
+}
+
+output:
+Driving a bike
+Driving a car
+Driving a generic vehicle
+
+=== Code Execution Successful ===
